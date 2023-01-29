@@ -1,7 +1,7 @@
 # Excel Streamlit Plotter
 Making **dynamic plottings** of excel files with Streamlit
 
-To OPEN **Covid-19 Detection Tool** click here: 
+To OPEN **Excel Streamlit Plotter** click here: 
 
 [![Streamlit APP](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://rosariomoscato-excel-plotter.streamlit.app/)
 
