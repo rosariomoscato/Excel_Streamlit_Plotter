@@ -101,6 +101,14 @@ optional = false
 python-versions = ">=3.6"
 
 [[package]]
+name = "et-xmlfile"
+version = "1.1.0"
+description = "An implementation of lxml.xmlfile for the standard library"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[[package]]
 name = "gitdb"
 version = "4.0.10"
 description = "Git Object Database"
@@ -220,6 +228,17 @@ description = "Fundamental package for array computing in Python"
 category = "main"
 optional = false
 python-versions = ">=3.8"
+
+[[package]]
+name = "openpyxl"
+version = "3.0.10"
+description = "A Python library to read/write Excel 2010 xlsx/xlsm files"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+et-xmlfile = "*"
 
 [[package]]
 name = "packaging"
@@ -577,7 +596,7 @@ testing = ["pytest (>=6)", "pytest-checkdocs (>=2.4)", "flake8 (<5)", "pytest-co
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.10"
-content-hash = "055fe4066a32d4729993f78a2d2903094f6ab40f08cf1aa5e290bb2fb4bca9de"
+content-hash = "3f17d549168a97f9fe140ce07c5e06db25bb25432ab70291ea25044f357388d8"
 
 [metadata.files]
 altair = []
@@ -590,6 +609,7 @@ click = []
 colorama = []
 decorator = []
 entrypoints = []
+et-xmlfile = []
 gitdb = []
 gitpython = []
 idna = []
@@ -600,6 +620,7 @@ markdown-it-py = []
 markupsafe = []
 mdurl = []
 numpy = []
+openpyxl = []
 packaging = []
 pandas = []
 pillow = []
