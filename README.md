@@ -1,4 +1,4 @@
-# Excel_Streamlit_Plotter
+# Excel Streamlit Plotter
 Making **dynamic plottings** of excel files with Streamlit
 
 To OPEN **Covid-19 Detection Tool** click here: 
