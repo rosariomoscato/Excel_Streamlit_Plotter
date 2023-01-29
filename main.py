@@ -1,3 +1,10 @@
-import subprocess
+### STREAMLIT ACTIVATION ###
+import os
 
-subprocess.run(["streamlit", "run", "app.py"])
+stream = True
+
+if stream:
+  print("Starting Streamlit...")
+  stream = False
+  os.system('streamlit run app.py')
+### ONLY IN REPLIT ###
