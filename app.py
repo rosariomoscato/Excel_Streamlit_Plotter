@@ -40,11 +40,11 @@ if uploaded_file:
         ('Ship Mode', 'Segment', 'Category', 'Sub-Category'),
     )
 
-    # -- GROUP DATAFRAME
+    # -- GROUP DATAFRAME --
     output_columns = ['Sales', 'Profit']
     df_grouped = df.groupby(by=[groupby_column], as_index=False)[output_columns].sum()
 
-    # -- PLOT DATAFRAME
+    # -- PLOT DATAFRAME --
     fig = px.bar(
         df_grouped,
         x=groupby_column,
